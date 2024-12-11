@@ -91,7 +91,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget https://github.com/Deriandri/malayaauto/tree/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 clear
@@ -396,7 +396,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://github.com/Deriandri/malayaauto/tree/main/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -410,43 +410,43 @@ function Casper3(){
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}  PROCESS INSTALLED SSH & OVVPN         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}       PROCESS INSTALLED XRAY           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED WEBSOCKET SSH   ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED BACKUP MENU     ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          PROCESS INSTALLED OHP         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD EXTRA MENU           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/update.sh && chmod +x update.sh && ./update.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}           DOWNLOAD SLOW DNS            ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
@@ -458,13 +458,13 @@ clear
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD UDP COSTUM           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED NOOBZVPNS         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/noobz/noobzvpns.zip
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/noobz/noobzvpns.zip
 unzip noobzvpns.zip
 chmod +x noobzvpns/*
 cd noobzvpns
@@ -476,13 +476,13 @@ clear
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED LIMIT XRAY        ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED TROJAN-GO         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://github.com/Deriandri/malayaauto/tree/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
 clear
 }
 
@@ -543,7 +543,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://github.com/Deriandri/malayaauto/tree/main/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Deriandri/malayaauto/main/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
