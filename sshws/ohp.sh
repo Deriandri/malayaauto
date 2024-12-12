@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 # Getting
 
 # Download File Ohp
-wget https://raw.githubusercontent.com/Deriandri/malayaauto/main//install/ohpserver-linux32.zip
+wget https://raw.githubusercontent.com/Deriandri/malayaauto/main//ohpserver-linux32.zip
 unzip ohpserver-linux32.zip
 chmod +x ohpserver
 cp ohpserver /usr/local/bin/ohpserver
