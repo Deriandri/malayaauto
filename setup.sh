@@ -489,8 +489,8 @@ clear
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="-1000065261383"
-KEY="7270137313:AAHJsxfJmnHzswaVYWQN4CKhQao0V3GLOoI"
+CHATID="-10000661383"
+KEY="7270137313:AAHJsxfJmnHzswaVYWQN4CKho0V3GLOoI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
