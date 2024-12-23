@@ -343,7 +343,7 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 */3 * * * * root /usr/bin/autocpu
 END
-echo "Auto-Reboot CPU 100% TURN ON."
+echo "Auto-Reboot CPU 80% TURN ON."
 sleep 1
 menu
 }
